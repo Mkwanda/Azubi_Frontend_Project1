@@ -1,5 +1,58 @@
 body{
-    background-color: rgb(26, 22, 22);
+    background-color: #131518;
     font: 1em sans-serif;
-    color: aliceblue;
+    color: #969FAD;
 }
+.formsec1{
+    position: absolute;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    text-align: left;
+
+}
+.ratting {
+    
+    background-color: #232A34;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+  }
+  .ratting:hover {
+    background-color: #FC7614;
+    color: white;
+  }
+  .ratting:focus {background: #969FAD;}
+
+  .subbtn{
+    background-color: white ;
+    color: #FC7614;
+   left: 7.77%;
+    right: 9.47%;
+    top: 81.49%;
+    bottom: 7.69%;
+    border-radius: 12px ;
+    padding: 10px 50px;
+    margin: 0px 50px;
+
+  }
+  h2{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: white;
+  }
+  p{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
