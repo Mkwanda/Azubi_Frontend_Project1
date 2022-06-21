@@ -4,15 +4,17 @@ body{
     color: #969FAD;
 }
 .formsec1{
-    position: absolute;
-    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    
+    background-color:  #232A34;
     border-radius: 30px;
-    text-align: left;
+    text-align: center;
+    margin: auto;
+    width: 50%;
 
 }
 .ratting {
     
-    background-color: #232A34;
+    background-color: #262E38 ;
     border: none;
     color: white;
     padding: 20px;
@@ -28,17 +30,19 @@ body{
     color: white;
   }
   .ratting:focus {background: #969FAD;}
-
+ 
   .subbtn{
     background-color: white ;
     color: #FC7614;
-   left: 7.77%;
+    left: 7.77%;
     right: 9.47%;
     top: 81.49%;
     bottom: 7.69%;
     border-radius: 12px ;
-    padding: 10px 50px;
-    margin: 0px 50px;
+    padding: 10px 30px;
+    margin: auto;
+    
+    text-align: center;
 
   }
   h2{
