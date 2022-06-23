@@ -10,26 +10,27 @@ body{
     text-align: center;
     margin: auto;
     width: 50%;
+    padding-top: 20px;
+    padding-bottom: 30px;
 
 }
 .ratting {
     
     background-color: #262E38 ;
     border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    color: red;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
     border-radius: 50%;
   }
   .ratting:hover {
     background-color: #FC7614;
-    color: white;
+    color:#FC7614;
   }
-  .ratting:focus {background: #969FAD;}
+  .ratting:focus {background: #969FAD;
+  
+  }
  
   .subbtn{
     background-color: white ;
@@ -41,10 +42,16 @@ body{
     border-radius: 12px ;
     padding: 10px 30px;
     margin: auto;
+    cursor: pointer;
     
     text-align: center;
 
   }
+.subbtn:hover {
+  background-color: #FC7614;
+  color:white;
+}
+
   h2{
     font-family: 'Overpass';
     font-style: normal;
@@ -59,4 +66,9 @@ body{
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
+  }
+
+  .imgthankyou{
+    width: 50%;
+    height: auto;
   }
